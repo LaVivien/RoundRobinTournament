@@ -1,0 +1,54 @@
+
+week 1
+Red bull vs. iPhoners
+Manchester United vs. Foo Fighters
+Liverpool vs. Giants
+Staples vs. Westhill
+
+week 2
+Cosmos vs. iPhoners
+Red bull vs. Giants
+Manchester United vs. Westhill
+Liverpool vs. Staples
+
+week 3
+Cosmos vs. Foo Fighters
+iPhoners vs. Giants
+Red bull vs. Staples
+Manchester United vs. Liverpool
+
+week 4
+Cosmos vs. Giants
+Foo Fighters vs. Westhill
+iPhoners vs. Staples
+Red bull vs. Manchester United
+
+week 5
+Cosmos vs. Westhill
+Giants vs. Staples
+Foo Fighters vs. Liverpool
+iPhoners vs. Manchester United
+
+week 6
+Cosmos vs. Staples
+Westhill vs. Liverpool
+Giants vs. Manchester United
+Foo Fighters vs. Red bull
+
+week 7
+Cosmos vs. Liverpool
+Staples vs. Manchester United
+Westhill vs. Red bull
+Foo Fighters vs. iPhoners
+
+week 8
+Cosmos vs. Manchester United
+Liverpool vs. Red bull
+Westhill vs. iPhoners
+Giants vs. Foo Fighters
+
+week 9
+Cosmos vs. Red bull
+Liverpool vs. iPhoners
+Staples vs. Foo Fighters
+Westhill vs. Giants
