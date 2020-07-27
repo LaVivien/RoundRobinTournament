@@ -8,6 +8,7 @@ There are 10 soccer teams that will play in the league this year are stored in a
 
 Here is a sample solution:
 
+```
 Soccer Schedule: Number of teams is: 10
 Week 1
 Cosmos plays Attackers
@@ -71,6 +72,7 @@ Manchester United plays Attackers
 Liverpool plays iPhoners
 Staples plays Foo Fighters
 Westhill plays Giants
+```
 
 ## Algorithm
 
@@ -80,12 +82,15 @@ If  is the number of competitors, a pure round robin tournament requires  games.
 
 The standard algorithm for round-robins is to assign each competitor a number, and pair them off in the first round …
 
+```
 Round 1. (1 plays 14, 2 plays 13, ... )
 1  2 3  4 5 6  7
  14 13 12 11 10 9  8
- 
+```
+
 then fix one competitor (number one in this example) and rotate the others clockwise one position
 
+```
 Round 2. (1 plays 13, 14 plays 12, ... )
 1  14 2  3 4 5  6
  13 12 11 10 9  8 7
@@ -93,14 +98,19 @@ Round 2. (1 plays 13, 14 plays 12, ... )
 Round 3. (1 plays 12, 13 plays 11, ... )
 1  13 14 2  3 4 5
  12 11 10 9  8 7 6
- 
+
+ ```
 until you end up almost back at the initial position
 
+```
 Round 13. (1 plays 2, 3 plays 14, ... )
 1  3 4  5 6 7  8
  2 14  13 12 11 10 9
- 
-If there are an odd number of competitors, a dummy competitor can be added, whose scheduled opponent in a given round does not play and has a bye. The schedule can therefore be computed as though the dummy were an ordinary player, either fixed or rotating. Instead of rotating one position, any number relatively prime to  will generate a complete schedule. The upper and lower rows can indicate home/away in sports, white/black in chess, etc.; to ensure fairness, this must alternate between rounds since competitor 1 is always on the first row. If, say, competitors 3 and 8 were unable to fulfil their fixture in the third round, it would need to be rescheduled outside the other rounds, since both competitors would already be facing other opponents in those rounds. More complex scheduling constraints may require more complex algorithms. This schedule is applied in chess and draughts tournaments of rapid games, where players physically move round a table.
+```
+
+If there are an odd number of competitors, a dummy competitor can be added, whose scheduled opponent in a given round does not play and has a bye. The schedule can therefore be computed as though the dummy were an ordinary player, either fixed or rotating. Instead of rotating one position, any number relatively prime to  will generate a complete schedule. The upper and lower rows can indicate home/away in sports, white/black in chess, etc.
+
+To ensure fairness, this must alternate between rounds since competitor 1 is always on the first row. If, say, competitors 3 and 8 were unable to fulfil their fixture in the third round, it would need to be rescheduled outside the other rounds, since both competitors would already be facing other opponents in those rounds. More complex scheduling constraints may require more complex algorithms. This schedule is applied in chess and draughts tournaments of rapid games, where players physically move round a table.
 
 
 
