@@ -8,8 +8,9 @@ There are 10 soccer teams that will play in the league this year are stored in a
 
 Here is a sample solution:
 
-```
 Soccer Schedule: Number of teams is: 10
+
+```
 Week 1
 Cosmos plays Attackers
 Red Bull plays iPhoners
@@ -94,12 +95,14 @@ then fix one competitor (number one in this example) and rotate the others clock
 Round 2. (1 plays 13, 14 plays 12, ... )
 1  14 2  3 4 5  6
  13 12 11 10 9  8 7
- 
+```
+
+```
 Round 3. (1 plays 12, 13 plays 11, ... )
 1  13 14 2  3 4 5
  12 11 10 9  8 7 6
-
  ```
+ 
 until you end up almost back at the initial position
 
 ```
